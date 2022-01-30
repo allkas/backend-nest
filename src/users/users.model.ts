@@ -3,7 +3,6 @@ import { Table, Model, Column, DataType } from "sequelize-typescript";
 interface userCreationAttr {
     email: string;
     password: string;
-
 }
 
 @Table({tableName: 'users'})
